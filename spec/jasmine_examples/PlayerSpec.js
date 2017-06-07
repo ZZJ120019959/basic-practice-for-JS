@@ -12,11 +12,8 @@
          expect(Player.calSum(numArray1)).toBe(6);
      });
 
-     /*it('should calculate the sum of numbers which are in array and less than indicated num ', () => {
-         let numArray1 = [3, 6, 1, 8, 6, 4, 2];
-         let numArray2 = [1, 2, 6, 2, 9, 0, 4];
-
-         expect(Player.calSumInConditon(numArray1 , 5)).toBe(10);
-         expectPlayer.calSumInConditon(numArray2,6).toBe(9);
-     });*/
+     it('should calculate the sum of numbers which are in array and less than indicated num ', () => {
+         let numArray1 = [1,2,4];
+         expect(Player.calSumInConditon(numArray1 , 4)).toBe(3);
+     });
  });
